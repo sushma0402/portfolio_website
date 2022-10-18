@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sushma's portfolio</title>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Josefin+Sans&family=Kanit:wght@900&family=Kaushan+Script&family=Kristi&family=Mali:wght@300;600;700&family=Mansalva&family=Montserrat:wght@400;900&family=Ms+Madi&family=Ubuntu&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navigation-bar navbar navbar-dark sticky-top navbar-expand-lg">
+
+      <div class="navigation-container container-fluid">
+
+        <a class="navigation-brand navbar-brand" href="#">S</a>
+
+        <div class="navbar-nav">
+          <a class="navigation-item nav-link" href="#my-skills">Skills</a>
+          <a class="navigation-item nav-link" href="#projects">Projects</a>
+          <a class="navigation-item nav-link" href="#about-me">About me</a>
+          <!-- <a class="navigation-item nav-link" href="#contact-me">Contact me</a> -->
+          <a class="navigation-item resume-button btn" href="resume.pdf" target="_blank">Resume</a>
+        </div>
+
+      </div>
+
+    </nav>
+
+    <!-- skills -->
+    <div class="row" id="my-skills">
+      <div class="ui-ux col-md bg-light">
+        <img class="ui-ux-img" src="imgs/ui-ux.png" alt="">
+        <br>
+        UI/UX Design
+      </div>
+
+      <div class="web-dev col-md bg-light">
+        <img class="web-dev-img" src="imgs/web-dev.png" alt="">
+        <br>
+        Web Development
+      </div>
+
+    </div>
+
+    <!-- projects -->
+    <div class="row" id="projects">
+
+      <!-- <h1>Projects</h1> -->
+
+      <div class="ui-ux-projects col-sm bg-light">
+
+        <h4 class="project-type">UI/UX Design projects</h4>
+
+        <div class="row">
+          <a href="projects/case-study-little-chefs.pdf" target="blank"><img class="project-img" src="imgs/little-chefs-logo.png" alt=""></a>
+        </div>
+
+        <div class="row">
+          <a href="projects/case-study-thriftee.pdf" target="blank"><img class="project-img" src="imgs/thriftee-logo.png" alt=""></a>
+        </div>
+
+        <div class="row">
+          <a href="projects/case-study-home-for-strays.pdf" target="blank"><img class="project-img" src="imgs/homeforstrays-logo.png" alt=""></a>
+        </div>
+
+      </div>
+
+
+
+      <div class="web-dev-projects col-sm bg-light">
+
+        <h4>Web Development projects</h4>
+
+        <div class="row">
+          <a href="#"><img class="project-img" src="imgs/drum-kit.png" alt=""></a>
+        </div>
+
+        <div class="row">
+          <a href="#"><img class="project-img" src="imgs/dice-game.png" alt=""></a>
+        </div>
+
+        <div class="row">
+          <a href="#"><img class="project-img" src="imgs/tindog.png" alt=""></a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- about me -->
+    <div id="about-me">
+      <div class="about-me-content row bg-light">
+        <div class="col-lg-3">
+          <img class="profile" src="imgs/profile.png" alt="">
+        </div>
+
+        <div class="col-lg-8">
+          <p class="intro">Hi! I am <span class="my-name">Sushma.</span></p>
+          <p class="intro">I am interested in User Experience Design and Web Development.
+            I have been upskilling myself by taking courses.
+            I am looking forward to improve my skills further by getting some work experience.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact me -->
+    <div id="contact-me">
+      <h3>Get In Touch</h3>
+      <a class="mail-button btn" href="mailto:sushmach0402@gmail.com" target="_blank">mail</a>
+      <button class="linkedin-button btn" type="button" name="button">LinkedIn</button>
+    </div>
+
+    <!-- resume -->
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- javascript -->
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

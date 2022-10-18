@@ -1,0 +1,118 @@
+body{
+  background-color: #FF731D;
+  font-family: Montserrat;
+}
+
+.navigation-bar{
+  background-color: #FF731D;
+}
+
+.navigation-container{
+  padding: 20px 40px;
+}
+
+.navigation-brand{
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.navigation-item{
+  margin-left: 50px !important;
+}
+
+.resume-button{
+  border: 2px solid #FFF7E9;
+  color: #FFF7E9;
+}
+
+.mail-button, .linkedin-button{
+  border: 2px solid #FFF7E9;
+  color: #FFF7E9;
+  margin: 20px 5px;
+}
+
+.resume-button:hover, .mail-button:hover, .linkedin-button:hover{
+  background-color: #1746A2;
+  color: #FFF7E9;
+}
+
+#my-skills{
+  text-align: center;
+  padding-top: 100px;
+  margin:0 10%;
+}
+
+.ui-ux, .web-dev{
+  margin: 4% 4%;
+  padding: 4%;
+  font-size: 1.5em;
+}
+
+@media screen and (max-width: 480px) {
+  .ui-ux, .web-dev{
+    font-size: 1.1em;
+  }
+}
+
+.ui-ux-img, .web-dev-img{
+  width: 40%;
+  margin: 25px;
+}
+
+.ui-ux-skills, .web-dev-skills{
+  text-align: left;
+  color: #1746A2;
+  font-size: 0.9em;
+}
+
+#projects{
+  text-align: center;
+  padding-top: 100px;
+  margin:0 5%;
+}
+
+.ui-ux-projects,.web-dev-projects{
+  margin: 4% 2%;
+  padding:50px 0 20px 0;
+}
+
+.project-img{
+  width: 80%;
+  margin: 5% 10%;
+}
+
+@media screen and (max-width: 480px) {
+  .ui-ux-projects,.web-dev-projects{
+    font-size: 1.1em;
+    }
+}
+
+#about-me{
+  padding-top: 150px;
+  margin: 0;
+}
+
+.about-me-content{
+  padding: 50px 15%;
+}
+
+.intro{
+  font-size: 1.3em;
+  font-family: Mali;
+  font-weight: 600;
+}
+
+.profile{
+  height: 150px;
+  margin-bottom:20px;
+}
+
+.my-name{
+  font-size: 1.5em;
+}
+
+#contact-me{
+
+  padding: 100px 0;
+  text-align: center;
+}
