@@ -1,0 +1,119 @@
+body{
+  background-color: #D6EFED;
+}
+
+.navigation-bar{
+  padding: 20px 0 0 0;
+  font-family: 'Kristen ITC';
+  background-color: #D6EFED;
+}
+
+.navigation-item{
+  color: #11468F;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.resume-button{
+  border: 2px solid #FEDB39;
+  border-radius: 10px;
+  padding: 6px 20px;
+}
+
+.resume-button:hover{
+  background-color: #FEDB39;
+  border-radius: 10px;
+  padding: 6px 20px;
+}
+
+.intro{
+  text-align: center;
+}
+
+.name{
+  font-size: 70px;
+  font-family: 'Kaushan Script', cursive;
+  color: #11468F;
+  padding: 170px 0 60px 0;
+}
+
+.ocean{
+  width: 100%;
+  height: 300px;
+}
+
+#about-me{
+  padding: 150px 0 0 0;
+  text-align: center;
+}
+
+.profile{
+  margin:20px;
+  height: 150px;
+}
+
+.description{
+  margin: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#skills{
+  text-align: center;
+  padding: 100px 0 0 0;
+  margin:0 250px;
+}
+
+.web-dev, .ui-ux{
+  border: 2px solid #FEDB39;
+  border-radius: 10px;
+  padding: 50px 100px;
+  margin:10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.web-dev-skills, .ui-ux-skills{
+  text-align: left;
+}
+
+#projects{
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 100px 0 0 0;
+}
+
+
+.web-dev-projects, .ui-ux-projects{
+  margin: 25px 100px 0 100px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.project{
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#contact-me{
+  margin: 150px 0 0 0;
+  padding: 50px 0 10px 0;
+  text-align: center;
+  background-color: #FEDB39;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.mail, .linkedin{
+  margin: 10px 5px 100px 5px;
+  border: 2px solid #11468F;
+  border-radius: 10px;
+  padding: 6px 20px;
+  font-family: 'Kristen ITC';
+}
+
+.mail:hover, .linkedin:hover{
+  background-color: #11468F;
+  color: #FEDB39;
+
+}
