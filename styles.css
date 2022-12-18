@@ -1,0 +1,171 @@
+body {
+  background-color: #d6efed;
+}
+
+.navigation-bar {
+  padding: 20px 0 0 0;
+  font-family: "Kristen ITC", "Pangolin", cursive;
+  background-color: #d6efed;
+}
+
+.navigation-item {
+  color: #11468f;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.navigation-item:hover {
+  transform: scale(1.1);
+  color: #11468f;
+}
+
+.resume-button {
+  border: 2px solid #fedb39;
+  border-radius: 10px;
+  padding: 6px 20px;
+}
+
+.resume-button:hover {
+  background-color: #fedb39;
+  border-radius: 10px;
+  padding: 6px 20px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.name {
+  font-size: 4em;
+  font-family: "Kaushan Script", cursive;
+  color: #11468f;
+  padding: 170px 0 60px 0;
+}
+
+.ocean {
+  width: 100%;
+}
+
+#about-me {
+  padding: 150px 10px 0 10px;
+  text-align: center;
+}
+
+.profile {
+  margin: 20px;
+  height: 150px;
+}
+
+.description {
+  margin: 10px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#skills {
+  text-align: center;
+  padding: 100px 0 0 0;
+  margin: 0 18%;
+}
+
+.web-dev-col,
+.ui-ux-col {
+  padding: 10px;
+}
+
+.web-dev,
+.ui-ux {
+  min-height: 180px;
+  border: 2px solid #fedb39;
+  border-radius: 10px;
+  padding: 50px 20%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.web-dev-skills,
+.ui-ux-skills {
+  text-align: left;
+}
+
+#projects {
+  font-family: "Josefin Sans", sans-serif;
+  padding: 100px 0 0 0;
+}
+
+.web-dev-projects,
+.ui-ux-projects {
+  margin: 25px 7% 0 7%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.project {
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.project:hover {
+  transform: scale(1.1);
+}
+
+#contact-me {
+  margin: 150px 0 0 0;
+  padding: 50px 0 10px 0;
+  text-align: center;
+  background-color: #fedb39;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.mail,
+.linkedin {
+  margin: 10px 5px 100px 5px;
+  border: 2px solid #11468f;
+  border-radius: 10px;
+  padding: 6px 20px;
+  font-family: "Kristen ITC", "Pangolin", cursive;
+}
+
+.mail:hover,
+.linkedin:hover {
+  background-color: #11468f;
+  color: #fedb39;
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation-item {
+    font-size: 0.8em;
+  }
+
+  .profile {
+    height: 100px;
+  }
+
+  #contact-me {
+    margin: 100px 0 0 0;
+  }
+
+  .mail,
+  .linkedin {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .name {
+    font-size: 3em;
+    padding: 100px 0 60px 0;
+  }
+
+  .project {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .web-dev,
+  .ui-ux {
+    padding: 50px 5%;
+  }
+}
