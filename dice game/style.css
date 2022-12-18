@@ -16,7 +16,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  /* background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%); */
+ 
   background-color: #92b4ec;
   display: flex;
   align-items: center;
@@ -28,10 +28,9 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  /* background-color: rgba(255, 255, 255, 0.35); */
+ 
   background-color: #ffe69a;
-  backdrop-filter: blur(200px);
-  filter: blur();
+  
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   border-radius: 9px;
   overflow: hidden;
