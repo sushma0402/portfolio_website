@@ -1,0 +1,189 @@
+/* GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6efed;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #d6efed;
+
+  padding: 32px 0px;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #11468f;
+
+  margin: 0 24px;
+  padding: 6px 8px;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  transform: scale(1.1);
+}
+
+.resume:link,
+.resume:visited {
+  border: 2px solid #fedb39;
+  border-radius: 10px;
+}
+
+.resume:hover,
+.resume:active {
+  background-color: #fedb39;
+}
+
+/* INTRO */
+
+.intro {
+  text-align: center;
+
+  padding: 150px 20px 150px 20px;
+}
+
+.name {
+  font-family: "Kaushan Script", sans-serif;
+  color: #11468f;
+  font-size: 64px;
+  font-weight: 500;
+
+  margin-top: 15px;
+  display: inline-block;
+}
+
+.line {
+  color: #d6336c;
+  opacity: 0.6;
+  border-width: 10px;
+  border-radius: 5px;
+  width: 0;
+
+  margin-top: 10px;
+}
+
+.desc {
+  color: #495057;
+
+  margin-top: 50px;
+}
+
+/* SKILLS */
+
+#myskills {
+  background-color: #e6f5f4;
+  text-align: center;
+
+  padding: 120px 20px 100px 20px;
+}
+
+.skill-h {
+  display: inline-block;
+}
+
+.skills {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.frnt-dev,
+.ui-ux {
+  border: 2px solid #495057;
+  border-radius: 30px;
+
+  margin-top: 30px;
+  padding: 32px 5%;
+}
+
+.frnt-dev-skills,
+.ui-ux-skills {
+  text-align: left;
+
+  padding: 0 20%;
+}
+
+/* PROJECTS */
+
+#projects {
+  text-align: center;
+
+  padding: 120px 20px 100px 20px;
+}
+
+.frnt-dev-projects {
+  margin-top: 30px;
+}
+
+.ui-ux-projects {
+  margin-top: 50px;
+}
+
+.project-h {
+  display: inline-block;
+}
+
+.projects-list {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.project-link {
+  margin: 20px 0;
+}
+
+.project-img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.project-img:hover {
+  transform: scale(1.1);
+}
+
+/* FOOTER */
+
+.contact-me {
+  background-color: #fedb39;
+  text-align: center;
+
+  padding: 50px 0 15px 0;
+}
+
+.mail:link,
+.mail:visited,
+.linkedin:link,
+.linkedin:visited {
+  border: 2px solid #11468f;
+  border-radius: 10px;
+
+  margin-top: 10px;
+  padding: 6px 20px;
+}
+
+.mail:hover,
+.mail:active,
+.linkedin:hover .linkedin:active {
+  background-color: #11468f;
+  color: #fedb39;
+  transform: scale(1.1);
+}
+
+.linkedin {
+  margin-left: 10px;
+}
+
+.copyright {
+  margin-top: 100px;
+}

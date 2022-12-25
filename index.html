@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushma's portfolio website</title>
+
+    <!-- BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Roboto&family=Rubik:wght@400;500;600;700&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Gochi+Hand&family=Pangolin&family=Handlee&family=Kaushan+Script:wght@400;500;600;700&family=Kristi&family=Mansalva&family=Ms+Madi&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- TOP -->
+    <header>
+      <!-- NAVBAR -->
+
+      <nav class="navbar sticky-top navbar-expand-sm">
+        <div class="container-fluid">
+          <div class="navbar-nav ms-sm-auto me-sm-auto">
+            <a class="nav-link" href="#myskills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link resume" href="resume.pdf" target="_blank"
+              >Resume</a
+            >
+          </div>
+        </div>
+      </nav>
+
+      <!-- INTRO -->
+      <div class="intro">
+        <h2 class="hello">Hello!</h2>
+        <h1 class="name">
+          I'm Sushma
+          <hr class="line" />
+        </h1>
+
+        <p class="desc">I love Web Design and Front-end Development.</p>
+      </div>
+    </header>
+
+    <!-- SKILLS -->
+    <div id="myskills">
+      <h2 class="skill-h">
+        My Skills
+        <hr class="line" />
+      </h2>
+      <div class="skills row">
+        <div class="col-sm-6">
+          <div class="frnt-dev">
+            <h4>Front-end Development</h4>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="ui-ux">
+            <h4>UI/UX Design</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECTS -->
+    <div id="projects">
+      <h2 class="project-h">
+        Projects
+        <hr class="line" />
+      </h2>
+
+      <!-- FRONT-END PROJECTS -->
+      <div class="frnt-dev-projects">
+        <h5 class="project-frnt-h">Front-end Development</h5>
+        <div class="projects-list row">
+          <a
+            class="project-link col-lg-4 col-sm-6"
+            href="Drum kit/index.html"
+            target="_blank"
+            ><img class="project-img" src="imgs/drum-kit.png" alt=""
+          /></a>
+
+          <a
+            class="project-link col-lg-4 col-sm-6"
+            href="dice game/index.html"
+            target="_blank"
+            ><img class="project-img" src="imgs/dice-game.png" alt=""
+          /></a>
+
+          <a
+            class="project-link col-lg-4 col-sm-6"
+            href="chair website/index.html"
+            target="_blank"
+            ><img class="project-img" src="imgs/lisbon.png" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <!-- UI/UX PROJECTS -->
+      <div class="ui-ux-projects">
+        <h5 class="project-ui-h">UI/UX Design</h5>
+        <div class="projects-list row">
+          <a
+            class="project-link col-lg-4 col-sm-6"
+            href="https://xd.adobe.com/view/cbe15695-c33c-4a9a-a82b-e294ae55a390-9eb2/?fullscreen"
+            target="_blank"
+            ><img class="project-img" src="imgs/little-chefs-logo.png" alt=""
+          /></a>
+
+          <a
+            class="project-link col-lg-4 col-sm-6"
+            href="https://www.figma.com/proto/Cd3yAGbe5iVnRI369FPDhU/Thriftee?node-id=206%3A530&starting-point-node-id=206%3A530"
+            target="_blank"
+            ><img class="project-img" src="imgs/thriftee-logo.png" alt=""
+          /></a>
+
+          <a
+            class="project-link col-lg-4 col-sm-6"
+            href="https://xd.adobe.com/view/c72db239-7cd5-4819-a589-2582434fa04e-927e/?fullscreen"
+            target="_blank"
+            ><img class="project-img" src="imgs/homeforstrays-logo.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="contact-me">
+      <h2>Get in touch</h2>
+      <a class="mail btn" href="mailto:sushmach0402@gmail.com" target="_blank"
+        >mail</a
+      >
+      <a
+        class="linkedin btn"
+        href="https://www.linkedin.com/in/sushma-ch-316baa193/"
+        target="_blank"
+        >linkedIn</a
+      >
+
+      <h6 class="copyright">@Sushma Chettipelly</h6>
+    </div>
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JS  -->
+    <script src="index.js"></script>
+  </body>
+</html>
